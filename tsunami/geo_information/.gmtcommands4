@@ -1,0 +1,13 @@
+# GMT common arguments shelf
+-B10
+-Je10.5/50.5/20/1:1
+-Jm.14c
+-R-330000/-330000/330000/330000r
+-x.4c
+-je10.5/50.5/20/1:1
+EOF
+F
+_bath.nc
+-x.4c
+-je3.5/51/1:1
+EOF
