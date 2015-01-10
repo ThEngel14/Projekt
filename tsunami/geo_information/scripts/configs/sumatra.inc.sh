@@ -22,4 +22,3 @@
  
   #preceding tag
   METANAME=germany_gebco_500m
-
