@@ -1,5 +1,5 @@
 #Note 1: The lat. lon. and depth are corresponding to the centroid location of each subfault
-#Note 2: Asymetric cosine functions are used to approximate the slip rate functions (Ji, et al., 2003JGR)
+#Note 2: Asymetric cosine functions are used to approximate the slip rate functions
 #Total number of fault_segments=     1
 #Fault_segment=   1 nx(Along-strike)=  34 Dx= 20.00 km ny(downdip)=  12 Dy= 16.00 km
 #+++Boundary of Fault_segment+++     1

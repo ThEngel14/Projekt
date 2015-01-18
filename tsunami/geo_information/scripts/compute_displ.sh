@@ -33,8 +33,8 @@
 
 # load configuration
 . ./scripts/config.inc.sh
-
-
+GMTPREFIX=/usr/bin/GMT
+GLOBALGRIDRESOLUTION=1m
   echo -e "******************************"
   echo -e "*** COMPUTING DISPLACEMENT ***"
   echo -e "******************************"
@@ -45,11 +45,11 @@
                       --subfaults=$DISPLSUBFAULTS\
                       --outputFile=$TEMPDIR/tempDispl.xyz
 
-  #Convert into a GMT-campatible format
+  #Convert into a GMT-compatible format
   Rscript $DISPLREFORMATSCRIPT --inDisplFile=$TEMPDIR/tempDispl.xyz --outDisplFile=$TEMPDIR/tempDispl.xyz --plotFile="$PLOTDIR/$METANAME"_displ.pdf
 
   #backup displacmenet data for additional postprocessing (e.g. cubed sphere)
-    cp $TEMPDIR/tempDispl.xyz "$WRITEDATATO/$METANAME"_raw_displ.xyz
+   # cp $TEMPDIR/tempDispl.xyz "$WRITEDATATO/$METANAME"_raw_displ.xyz
 
   #merge bathymetry and displacement
   #generate displacement -grd-File in the specified region
