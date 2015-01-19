@@ -1,0 +1,5 @@
+- Stations (0,0) belongs to the epicenter
+- The other stations can be mapped with the following alogrithm:
+	> start with the stations on the bottom left corner
+	> go along the coast and number the stations consecutively
+	> the first station belongs to the first entry in stations.txt unequal to the epicenter and so on
